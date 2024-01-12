@@ -10,7 +10,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://iinvest.cogencis.com/" />
+        <meta
+          property="og:url"
+          content="https://heartfelt-bublanina-390a41.netlify.app/"
+        />
         <meta property="og:title" content="Cogencis iinvest" />
         <meta
           property="og:description"
