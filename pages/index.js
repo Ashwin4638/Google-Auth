@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useSession, signIn, signOut } from "next-auth/react";
-
+import Logo from "./images/logo-preview.jpg";
 export default function Home() {
   const { data: session } = useSession();
   return (
@@ -19,12 +19,7 @@ export default function Home() {
           property="og:description"
           content="An all-in-one portal for informed investment decision"
         />
-        <meta
-          property="og:image"
-          content="https://iinvest.cogencis.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-v.3d183c84.png&w=384&q=75"
-        />
-        <meta property="og:image:width" content="384" />
-        <meta property="og:image:height" content="auto" />
+        <meta property="og:image" content="images/logo-preview.jpg" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {!session ? (
