@@ -19,7 +19,10 @@ export default function Home() {
           property="og:description"
           content="An all-in-one portal for informed investment decision"
         />
-        <meta property="og:image" content="/images/logo-preview.jpg" />
+        <meta
+          property="og:image"
+          content="https://heartfelt-bublanina-390a41.netlify.app/_ipx/w_384,q_75/%2F_next%2Fstatic%2Fmedia%2Flogo-preview.9f5b64f4.jpg?url=%2F_next%2Fstatic%2Fmedia%2Flogo-preview.9f5b64f4.jpg&w=384&q=75"
+        />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Image intrinsic src={Logo} />
