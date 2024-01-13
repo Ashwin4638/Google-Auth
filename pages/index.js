@@ -22,6 +22,7 @@ export default function Home() {
         <meta property="og:image" content="/images/logo-preview.jpg" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
+      <Image intrinsic src={Logo} />
       {!session ? (
         <>
           <p>Not signed in</p>
