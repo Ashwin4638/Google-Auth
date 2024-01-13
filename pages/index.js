@@ -19,7 +19,7 @@ export default function Home() {
           property="og:description"
           content="An all-in-one portal for informed investment decision"
         />
-        <meta property="og:image" content="images/logo-preview.jpg" />
+        <meta property="og:image" content="/images/logo-preview.jpg" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {!session ? (
