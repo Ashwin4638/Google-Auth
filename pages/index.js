@@ -23,6 +23,8 @@ export default function Home() {
           property="og:image"
           content="https://iinvest.cogencis.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-v.3d183c84.png&w=384&q=75"
         />
+        <meta property="og:image:width" content="384" />
+        <meta property="og:image:height" content="auto" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {!session ? (
