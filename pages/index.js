@@ -25,7 +25,7 @@ export default function Home() {
         />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <Image intrinsic src={Logo} />
+      {/* <Image intrinsic src={Logo} /> */}
       {!session ? (
         <>
           <p>Not signed in</p>
